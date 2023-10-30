@@ -1,0 +1,18 @@
+{
+  "tuya": {},
+  "sonoff": {},
+  "ext_listen_port": 65080,
+  "int_listen_port": 65800,
+  "ext_listen_address": "0.0.0.0/0",
+  "int_listen_address": "0.0.0.0/0",
+  "mongoose": {
+    "host": "127.0.0.1",
+    "port": 3306
+  },
+  "mqtt": {
+    "host": "mqtt.ukit.net",
+    "port": 1883,
+    "presence": "HAP_presence",
+    "debug": true
+  }
+}
